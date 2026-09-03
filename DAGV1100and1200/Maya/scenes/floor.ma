@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
-//Name: Sphere test.ma
-//Last modified: Wed, Sep 02, 2026 11:09:30 PM
+//Name: floor.ma
+//Last modified: Wed, Sep 02, 2026 11:09:39 PM
 //Codeset: 1252
 requires maya "2027";
 requires "mtoa" "5.6.2";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 26200)";
-fileInfo "UUID" "7F697D02-4EE3-6DF0-EFEA-439B1F7C4032";
+fileInfo "UUID" "25F4AF94-4725-F2C5-7544-B19CA0CA1D69";
 createNode transform -s -n "persp";
 	rename -uid "6531D208-4209-8AE1-5257-1B93812BDE7E";
 	setAttr ".v" no;
@@ -257,4 +257,4 @@ connectAttr "polyExtrudeFace2.out" "polyExtrudeFace3.ip";
 connectAttr "pCubeShape1.wm" "polyExtrudeFace3.mp";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
-// End of Sphere test.ma
+// End of floor.ma
