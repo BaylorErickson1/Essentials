@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
-//Name: Floor,Desk,Wall,Bookshelf.ma
-//Last modified: Mon, Sep 07, 2026 09:09:46 PM
+//Name: 3D Room Project.ma
+//Last modified: Mon, Sep 07, 2026 09:34:05 PM
 //Codeset: 1252
 requires maya "2027";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 26200)";
-fileInfo "UUID" "C81950A3-4151-F339-DF84-95B9C1743DDF";
+fileInfo "UUID" "A78A854A-4497-DDC2-340A-F4B9DEB81003";
 createNode transform -s -n "persp";
 	rename -uid "6531D208-4209-8AE1-5257-1B93812BDE7E";
 	setAttr ".v" no;
@@ -2223,4 +2223,4 @@ connectAttr "marble1.msg" ":defaultTextureList1.tx" -na;
 connectAttr "cloud1.msg" ":defaultTextureList1.tx" -na;
 connectAttr "cloud2.msg" ":defaultTextureList1.tx" -na;
 connectAttr "cloud3.msg" ":defaultTextureList1.tx" -na;
-// End of Floor,Desk,Wall,Bookshelf.ma
+// End of 3D Room Project.ma
